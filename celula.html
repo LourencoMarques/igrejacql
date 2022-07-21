@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Participe de uma Célula</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: Paralucent;
+        src: url(assets/fonts/fonts/otf/Paralucent-Light.otf);
+      }
+    </style>
+    <!-- FAVICON -->
+
+    <link
+      rel="shortcut icon"
+      href="assets/fotos/LOGO_PNG_CQL.ico"
+      type="image/x-icon"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="index.html"
+          ><img src="assets/fotos/LOGO_PNG_CQL.png" alt="" /><span></span
+        ></a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="index.html">Início</a></li>
+            <li>
+              <a class="title" href="index.html#about">Sobre</a>
+            </li>
+            <li><a class="title" href="index.html#assista">Assista</a></li>
+            <li>
+              <a class="title" href="index.html#ministerios">Ministérios</a>
+            </li>
+            <li><a class="title" href="celula.html">Células</a></li>
+            <li><a class="title" href="index.html#contact">Como chegar</a></li>
+            <li><a class="title" href="donate.html">Doações</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <!-- FORM  -->
+    <section class="section">
+      <form class="container">
+        <h2 class="title">Faça parte de uma célula</h2>
+        <img src="assets/fotos/celula.jpg" alt="celula" />
+        <p style="margin-top: 2rem; font-size: 1.3rem">
+          As células unem pessoas e transformam vidas. São reuniões que
+          acontecem uma vez por semana, em uma casa, onde as pessoas desenvolvem
+          um crescimento integral aprendendo e aplicando princípios da Palavra
+          de Deus de maneira simples e prática. Temos células em diversas
+          regiões de São Paulo e arredores, e em diversos horários.
+        </p>
+        <p
+          style="
+            font-weight: bolder;
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-bottom: -1.3rem;
+          "
+        >
+          Se você deseja participar, escreva abaixo para nós:
+        </p>
+
+        <div class="col-md-12 mt-5">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome Completo</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nome"
+                  placeholder="Digite o seu nome"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input
+                  type="emil"
+                  class="form-control"
+                  id="email"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <label for="Telefone" class="form-label">Telefone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="Telefone"
+                  placeholder="(00) 00000-0000"
+                  onkeypress="$(this).mask('(00) 00000-0009')"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="textarea" class="form-label">Pedido de Oração</label>
+            <textarea class="form-control" id="textarea" rows="3"></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

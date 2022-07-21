@@ -1,0 +1,39 @@
+/* DONATE */
+
+#donate p {
+  font-size: 1.4rem;
+}
+
+#donate .text p {
+  font-size: 1.4rem;
+  margin: 0rem;
+}
+
+#donate img {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+#donate .image {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#donate .text {
+  display: flex;
+  margin-left: 1.5rem;
+  flex-direction: column;
+}
+
+#donate .banco {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#donate .grid {
+  gap: 0;
+  display: grid;
+}
